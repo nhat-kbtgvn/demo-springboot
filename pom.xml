@@ -33,6 +33,32 @@
 		</dependency>
 	</dependencies>
 
+	<repositories>
+		<repository>
+		  <id>codingsoup</id>
+		  <url>https://pkgs.dev.azure.com/codingsoup/_packaging/codingsoup/maven/v1</url>
+		  <releases>
+		    <enabled>true</enabled>
+		  </releases>
+		  <snapshots>
+		    <enabled>true</enabled>
+		  </snapshots>
+		</repository>
+  	</repositories>
+
+	<distributionManagement>
+        	<repository>
+		  <id>codingsoup</id>
+		  <url>https://pkgs.dev.azure.com/codingsoup/_packaging/codingsoup/maven/v1</url>
+		  <releases>
+		    <enabled>true</enabled>
+		  </releases>
+		  <snapshots>
+		    <enabled>true</enabled>
+		  </snapshots>
+		</repository>
+    	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
