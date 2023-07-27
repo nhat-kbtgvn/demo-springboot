@@ -29,8 +29,8 @@ jobs:
         distribution: 'microsoft'
         cache: maven
         server-id: codingsoup
-        server-username: codingsoup
-        server-password: l47xgltiqoizkz5xznsh2rdnpl2mkgtmlszfqcr3gsyugj57bwua
+        server-username: MAVEN_USERNAME
+        server-password: MAVEN_PASSWORD
         
     - name: Build with Maven
       run: mvn -B package --file pom.xml
